@@ -1249,7 +1249,7 @@ by default a container is not allowed to access any devices, but a
 "privileged" container is given access to all devices (see
 the documentation on [cgroups devices](https://www.kernel.org/doc/Documentation/cgroup-v1/devices.txt)).
 
-The --privileged flag gives all capabilities to the container. When the operator
+The `--privileged` flag gives all capabilities to the container. When the operator
 executes `docker run --privileged`, Docker will enable access to all devices on
 the host as well as set some configuration in AppArmor or SELinux to allow the
 container nearly all the same access to the host as processes running outside
